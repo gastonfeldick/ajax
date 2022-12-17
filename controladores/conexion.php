@@ -2,7 +2,7 @@
 
 
 
-$conexion=mysqli_connect('localhost','gaston','2304','ajax');
+$conexion=mysqli_connect('localhost','root','','ajax');
 
 if(!$conexion){
     echo"database is not connected";
